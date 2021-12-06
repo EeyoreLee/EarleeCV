@@ -6,6 +6,7 @@
  
 import xml.etree.ElementTree as ET
 import glob
+import os
 
 
 classes = ["Crack", "Netv", "AbnormalManhole", "Pothole", "Marking"]
@@ -23,6 +24,9 @@ def convert(size, box):
     y = y*dh
     h = h*dh
     return (x,y,w,h)
+
+def only_filename(file_path):
+    return os.path.split(file_path)[-1]
 
 
 def convert_annotation(file_list, output_file_path):
@@ -43,9 +47,9 @@ def convert_annotation(file_list, output_file_path):
             cls = obj.find('name').text
             if cls not in classes :
                 continue
-            cls_id = classes.index(cls) + 1
+            cls_id = classes.index(cls)
             xmlbox = obj.find('bndbox')
-            b = [str(xmlbox.find('xmin').text), str(xmlbox.find('xmax').text), str(xmlbox.find('ymin').text), str(xmlbox.find('ymax').text), str(cls_id)]
+            b = [str(xmlbox.find('xmin').text), str(xmlbox.find('ymin').text), str(xmlbox.find('xmax').text), str(xmlbox.find('ymax').text), str(cls_id)]
             b_list.append(','.join(b))
 
         all_bbox.append([file_path, b_list])
@@ -53,15 +57,14 @@ def convert_annotation(file_list, output_file_path):
     with open(output_file_path, 'w') as f:
         length = len(all_bbox)
         for idx, b in enumerate(all_bbox):
-            if idx == length - 2:
-                f.write(b[0] + ' ' + ' '.join(b[1]))
-            else:
-                f.write(b[0] + ' ' + ' '.join(b[1]) + '\n')
+            f.write(only_filename(b[0]).replace('xml', 'jpg') + ' ' + ' '.join(b[1]) + '\n')
 
     return 0
 
 
 if __name__ == '__main__':
     file_list = glob.glob('/ai/223/person/lichunyu/datasets/chelianwang/dataset/train/annotations/*.xml')
-    _ = convert_annotation(file_list, 'train.txt')
+    _ = convert_annotation(file_list, '/ai/223/person/lichunyu/datasets/chelianwang/dataset/train/image/train.txt')
+    # x = '/ai/223/person/lichunyu/datasets/chelianwang/dataset/train/annotations/*.xml'
+    # y = os.path.split(x)[-1].replace('xml', 'jpg')
     pass

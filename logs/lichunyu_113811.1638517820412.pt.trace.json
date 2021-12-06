@@ -1,0 +1,1660 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+    {
+      "id": 0, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 1, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 2, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 3, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 4, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 5, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 6, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    },
+    {
+      "id": 7, "name": "NVIDIA TITAN Xp", "totalGlobalMem": 12788498432,
+      "computeMajor": 6, "computeMinor": 1,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 98304,
+      "numSms": 30, "sharedMemPerBlockOptin": 49152
+    }
+  ],
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517818543179, "dur": 8,
+    "args": {
+      "cbid": 135, "correlation": 5,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517818543221, "dur": 1851912,
+    "args": {
+      "cbid": 211, "correlation": 10,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 10, "pid": 113811, "tid": 113811, "ts": 1638517818543221,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395153, "dur": 19,
+    "args": {
+      "cbid": 211, "correlation": 13,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 13, "pid": 113811, "tid": 113811, "ts": 1638517820395153,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395296, "dur": 15,
+    "args": {
+      "cbid": 211, "correlation": 18,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 18, "pid": 113811, "tid": 113811, "ts": 1638517820395296,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395449, "dur": 16,
+    "args": {
+      "cbid": 211, "correlation": 24,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 24, "pid": 113811, "tid": 113811, "ts": 1638517820395449,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395568, "dur": 3,
+    "args": {
+      "cbid": 135, "correlation": 32,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395644, "dur": 16,
+    "args": {
+      "cbid": 211, "correlation": 39,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 39, "pid": 113811, "tid": 113811, "ts": 1638517820395644,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395662, "dur": 11,
+    "args": {
+      "cbid": 211, "correlation": 41,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 41, "pid": 113811, "tid": 113811, "ts": 1638517820395662,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395696, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 46,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 46, "pid": 113811, "tid": 113811, "ts": 1638517820395696,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395748, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 52,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 52, "pid": 113811, "tid": 113811, "ts": 1638517820395748,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395828, "dur": 12,
+    "args": {
+      "cbid": 211, "correlation": 61,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 61, "pid": 113811, "tid": 113811, "ts": 1638517820395828,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395896, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 68,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395929, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 75,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 75, "pid": 113811, "tid": 113811, "ts": 1638517820395929,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395939, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 77,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 77, "pid": 113811, "tid": 113811, "ts": 1638517820395939,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820395965, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 82,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 82, "pid": 113811, "tid": 113811, "ts": 1638517820395965,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396008, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 88,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 88, "pid": 113811, "tid": 113811, "ts": 1638517820396008,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396059, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 96,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396117, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 103,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 103, "pid": 113811, "tid": 113811, "ts": 1638517820396117,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396126, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 105,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 105, "pid": 113811, "tid": 113811, "ts": 1638517820396126,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396147, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 110,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 110, "pid": 113811, "tid": 113811, "ts": 1638517820396147,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396186, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 116,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 116, "pid": 113811, "tid": 113811, "ts": 1638517820396186,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396231, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 125,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 125, "pid": 113811, "tid": 113811, "ts": 1638517820396231,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396282, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 132,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396307, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 139,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 139, "pid": 113811, "tid": 113811, "ts": 1638517820396307,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396315, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 141,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 141, "pid": 113811, "tid": 113811, "ts": 1638517820396315,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396336, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 146,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 146, "pid": 113811, "tid": 113811, "ts": 1638517820396336,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396373, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 152,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 152, "pid": 113811, "tid": 113811, "ts": 1638517820396373,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396414, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 160,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396436, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 167,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 167, "pid": 113811, "tid": 113811, "ts": 1638517820396436,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396444, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 169,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 169, "pid": 113811, "tid": 113811, "ts": 1638517820396444,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396464, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 174,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 174, "pid": 113811, "tid": 113811, "ts": 1638517820396464,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396499, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 180,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 180, "pid": 113811, "tid": 113811, "ts": 1638517820396499,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396539, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 188,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396584, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 195,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 195, "pid": 113811, "tid": 113811, "ts": 1638517820396584,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396593, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 197,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 197, "pid": 113811, "tid": 113811, "ts": 1638517820396593,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396614, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 202,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 202, "pid": 113811, "tid": 113811, "ts": 1638517820396614,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396654, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 208,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 208, "pid": 113811, "tid": 113811, "ts": 1638517820396654,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396700, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 217,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 217, "pid": 113811, "tid": 113811, "ts": 1638517820396700,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396752, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 224,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396776, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 231,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 231, "pid": 113811, "tid": 113811, "ts": 1638517820396776,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396784, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 233,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 233, "pid": 113811, "tid": 113811, "ts": 1638517820396784,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820397803, "dur": 12,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 238, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 238, "pid": 0, "tid": 7, "ts": 1638517820397803,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396806, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 238,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 238, "pid": 113811, "tid": 113811, "ts": 1638517820396806,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820397816, "dur": 4,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 244, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 244, "pid": 0, "tid": 7, "ts": 1638517820397816,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396843, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 244,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 244, "pid": 113811, "tid": 113811, "ts": 1638517820396843,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396885, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 252,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1638517820397822, "dur": 69,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 259, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 8704,
+      "blocks per SM": 68.26667,
+      "warps per SM": 273.06668,
+      "grid": [16, 128, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 69
+    }
+  },
+  {
+    "ph": "f", "id": 259, "pid": 0, "tid": 7, "ts": 1638517820397822,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396907, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 259,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 259, "pid": 113811, "tid": 113811, "ts": 1638517820396907,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt", "pid": 0, "tid": 7,
+    "ts": 1638517820397892, "dur": 304,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 261, "external id": 0,
+      "registers per thread": 128,
+      "shared memory": 49152,
+      "blocks per SM": 4.266667,
+      "warps per SM": 34.133335,
+      "grid": [16, 4, 2],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 25
+    }
+  },
+  {
+    "ph": "f", "id": 261, "pid": 0, "tid": 7, "ts": 1638517820397892,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396915, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 261,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 261, "pid": 113811, "tid": 113811, "ts": 1638517820396915,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820398199, "dur": 12,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 266, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 266, "pid": 0, "tid": 7, "ts": 1638517820398199,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396934, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 266,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 266, "pid": 113811, "tid": 113811, "ts": 1638517820396934,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398213, "dur": 4,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 272, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 272, "pid": 0, "tid": 7, "ts": 1638517820398213,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820396969, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 272,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 272, "pid": 113811, "tid": 113811, "ts": 1638517820396969,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397009, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 280,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398218, "dur": 70,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 287, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 8704,
+      "blocks per SM": 68.26667,
+      "warps per SM": 273.06668,
+      "grid": [16, 128, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 69
+    }
+  },
+  {
+    "ph": "f", "id": 287, "pid": 0, "tid": 7, "ts": 1638517820398218,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397030, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 287,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 287, "pid": 113811, "tid": 113811, "ts": 1638517820397030,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt", "pid": 0, "tid": 7,
+    "ts": 1638517820398290, "dur": 305,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 289, "external id": 0,
+      "registers per thread": 128,
+      "shared memory": 49152,
+      "blocks per SM": 4.266667,
+      "warps per SM": 34.133335,
+      "grid": [16, 4, 2],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 25
+    }
+  },
+  {
+    "ph": "f", "id": 289, "pid": 0, "tid": 7, "ts": 1638517820398290,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397038, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 289,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 289, "pid": 113811, "tid": 113811, "ts": 1638517820397038,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820398596, "dur": 11,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 294, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 294, "pid": 0, "tid": 7, "ts": 1638517820398596,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397057, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 294,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 294, "pid": 113811, "tid": 113811, "ts": 1638517820397057,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398608, "dur": 4,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 300, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 52.266666,
+      "warps per SM": 104.53333,
+      "grid": [1568, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 300, "pid": 0, "tid": 7, "ts": 1638517820398608,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397091, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 300,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 300, "pid": 113811, "tid": 113811, "ts": 1638517820397091,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)", "pid": 0, "tid": 7,
+    "ts": 1638517820398613, "dur": 8,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 309, "external id": 0,
+      "registers per thread": 27,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 104.53333,
+      "grid": [392, 1, 1],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 309, "pid": 0, "tid": 7, "ts": 1638517820398613,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397134, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 309,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 309, "pid": 113811, "tid": 113811, "ts": 1638517820397134,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397183, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 316,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398623, "dur": 69,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 323, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 8704,
+      "blocks per SM": 68.26667,
+      "warps per SM": 273.06668,
+      "grid": [16, 128, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 69
+    }
+  },
+  {
+    "ph": "f", "id": 323, "pid": 0, "tid": 7, "ts": 1638517820398623,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397205, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 323,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 323, "pid": 113811, "tid": 113811, "ts": 1638517820397205,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt", "pid": 0, "tid": 7,
+    "ts": 1638517820398693, "dur": 121,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 325, "external id": 0,
+      "registers per thread": 128,
+      "shared memory": 49152,
+      "blocks per SM": 1.0666667,
+      "warps per SM": 8.533334,
+      "grid": [16, 2, 1],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 13
+    }
+  },
+  {
+    "ph": "f", "id": 325, "pid": 0, "tid": 7, "ts": 1638517820398693,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397214, "dur": 4,
+    "args": {
+      "cbid": 211, "correlation": 325,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 325, "pid": 113811, "tid": 113811, "ts": 1638517820397214,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820398816, "dur": 7,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 330, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 330, "pid": 0, "tid": 7, "ts": 1638517820398816,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397234, "dur": 6,
+    "args": {
+      "cbid": 211, "correlation": 330,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 330, "pid": 113811, "tid": 113811, "ts": 1638517820397234,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398823, "dur": 3,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 336, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 336, "pid": 0, "tid": 7, "ts": 1638517820398823,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397304, "dur": 9,
+    "args": {
+      "cbid": 211, "correlation": 336,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 336, "pid": 113811, "tid": 113811, "ts": 1638517820397304,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397352, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 344,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1638517820398826, "dur": 68,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 351, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 8704,
+      "blocks per SM": 68.26667,
+      "warps per SM": 273.06668,
+      "grid": [16, 128, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 69
+    }
+  },
+  {
+    "ph": "f", "id": 351, "pid": 0, "tid": 7, "ts": 1638517820398826,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397378, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 351,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 351, "pid": 113811, "tid": 113811, "ts": 1638517820397378,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt", "pid": 0, "tid": 7,
+    "ts": 1638517820398895, "dur": 122,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 353, "external id": 0,
+      "registers per thread": 128,
+      "shared memory": 49152,
+      "blocks per SM": 1.0666667,
+      "warps per SM": 8.533334,
+      "grid": [16, 2, 1],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 13
+    }
+  },
+  {
+    "ph": "f", "id": 353, "pid": 0, "tid": 7, "ts": 1638517820398895,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397387, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 353,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 353, "pid": 113811, "tid": 113811, "ts": 1638517820397387,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820399019, "dur": 7,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 358, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 358, "pid": 0, "tid": 7, "ts": 1638517820399019,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397410, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 358,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 358, "pid": 113811, "tid": 113811, "ts": 1638517820397410,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820399026, "dur": 3,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 364, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 364, "pid": 0, "tid": 7, "ts": 1638517820399026,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397452, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 364,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 364, "pid": 113811, "tid": 113811, "ts": 1638517820397452,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaEventRecord", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397497, "dur": 1,
+    "args": {
+      "cbid": 135, "correlation": 372,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1638517820399029, "dur": 68,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 379, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 8704,
+      "blocks per SM": 68.26667,
+      "warps per SM": 273.06668,
+      "grid": [16, 128, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 69
+    }
+  },
+  {
+    "ph": "f", "id": 379, "pid": 0, "tid": 7, "ts": 1638517820399029,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397550, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 379,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 379, "pid": 113811, "tid": 113811, "ts": 1638517820397550,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt", "pid": 0, "tid": 7,
+    "ts": 1638517820399099, "dur": 120,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 381, "external id": 0,
+      "registers per thread": 128,
+      "shared memory": 49152,
+      "blocks per SM": 1.0666667,
+      "warps per SM": 8.533334,
+      "grid": [16, 2, 1],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 13
+    }
+  },
+  {
+    "ph": "f", "id": 381, "pid": 0, "tid": 7, "ts": 1638517820399099,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397558, "dur": 5,
+    "args": {
+      "cbid": 211, "correlation": 381,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 381, "pid": 113811, "tid": 113811, "ts": 1638517820397558,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::BinaryFunctor<float, float, float, at::native::AddFunctor<float> >, at::detail::Array<char*, 3>, OffsetCalculator<2, unsigned int, false>, OffsetCalculator<1, unsigned int, false>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)", "pid": 0, "tid": 7,
+    "ts": 1638517820399220, "dur": 7,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 386, "external id": 0,
+      "registers per thread": 19,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 386, "pid": 0, "tid": 7, "ts": 1638517820399220,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397580, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 386,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 386, "pid": 113811, "tid": 113811, "ts": 1638517820397580,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)", "pid": 0, "tid": 7,
+    "ts": 1638517820399228, "dur": 3,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 392, "external id": 0,
+      "registers per thread": 13,
+      "shared memory": 0,
+      "blocks per SM": 13.066667,
+      "warps per SM": 26.133333,
+      "grid": [392, 1, 1],
+      "block": [64, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 392, "pid": 0, "tid": 7, "ts": 1638517820399228,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397620, "dur": 7,
+    "args": {
+      "cbid": 211, "correlation": 392,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 392, "pid": 113811, "tid": 113811, "ts": 1638517820397620,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)", "pid": 0, "tid": 7,
+    "ts": 1638517820399231, "dur": 5,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 401, "external id": 0,
+      "registers per thread": 27,
+      "shared memory": 0,
+      "blocks per SM": 3.2666667,
+      "warps per SM": 26.133333,
+      "grid": [98, 1, 1],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 41
+    }
+  },
+  {
+    "ph": "f", "id": 401, "pid": 0, "tid": 7, "ts": 1638517820399231,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397669, "dur": 8,
+    "args": {
+      "cbid": 211, "correlation": 401,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 401, "pid": 113811, "tid": 113811, "ts": 1638517820397669,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::(anonymous namespace)::adaptive_average_pool<float>(float*, float*, int, int, int, int, long, long, long)", "pid": 0, "tid": 7,
+    "ts": 1638517820399237, "dur": 12,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 413, "external id": 0,
+      "registers per thread": 40,
+      "shared memory": 0,
+      "blocks per SM": 17.066668,
+      "warps per SM": 136.53334,
+      "grid": [512, 1, 1],
+      "block": [32, 8, 1],
+      "est. achieved occupancy %": 75
+    }
+  },
+  {
+    "ph": "f", "id": 413, "pid": 0, "tid": 7, "ts": 1638517820399237,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaLaunchKernel", "pid": 113811, "tid": 113811,
+    "ts": 1638517820397754, "dur": 11,
+    "args": {
+      "cbid": 211, "correlation": 413,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "ph": "s", "id": 413, "pid": 113811, "tid": 113811, "ts": 1638517820397754,
+    "cat": "async_gpu", "name": "cudaLaunchKernel", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Runtime", 
+    "name": "cudaDeviceSynchronize", "pid": 113811, "tid": 113811,
+    "ts": 1638517820398056, "dur": 1195,
+    "args": {
+      "cbid": 165, "correlation": 418,
+      "external id": 0, "external ts": 1638517820397795
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 113811, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 113811, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 113811, "tid": 0,
+    "args": {
+      "sort_index": 113811
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 0, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 0, "tid": 0,
+    "args": {
+      "labels": "GPU 0"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 0, "tid": 0,
+    "args": {
+      "sort_index": 16777216
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 1, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 1, "tid": 0,
+    "args": {
+      "labels": "GPU 1"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 1, "tid": 0,
+    "args": {
+      "sort_index": 16777217
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 2, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 2, "tid": 0,
+    "args": {
+      "labels": "GPU 2"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 2, "tid": 0,
+    "args": {
+      "sort_index": 16777218
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 3, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 3, "tid": 0,
+    "args": {
+      "labels": "GPU 3"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 3, "tid": 0,
+    "args": {
+      "sort_index": 16777219
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 4, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 4, "tid": 0,
+    "args": {
+      "labels": "GPU 4"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 4, "tid": 0,
+    "args": {
+      "sort_index": 16777220
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 5, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 5, "tid": 0,
+    "args": {
+      "labels": "GPU 5"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 5, "tid": 0,
+    "args": {
+      "sort_index": 16777221
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 6, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 6, "tid": 0,
+    "args": {
+      "labels": "GPU 6"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 6, "tid": 0,
+    "args": {
+      "sort_index": 16777222
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1638517818542038, "pid": 7, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1638517818542038, "pid": 7, "tid": 0,
+    "args": {
+      "labels": "GPU 7"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 7, "tid": 0,
+    "args": {
+      "sort_index": 16777223
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1638517818542038, "pid": 0, "tid": 7,
+    "args": {
+      "name": "stream 7"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 0, "tid": 7,
+    "args": {
+      "sort_index": 7
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1638517818542038, "pid": 113811, "tid": 113811,
+    "args": {
+      "name": "thread 113811 (python)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1638517818542038, "pid": 113811, "tid": 113811,
+    "args": {
+      "sort_index": 113811
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1638517818542038, "dur": 1857221,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1638517818542038,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1638517818542038
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1638517820399266
+  }
+]}
